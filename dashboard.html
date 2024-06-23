@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech - Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-12 d-flex justify-content-between align-items-center">
+                <button class="btn btn-link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h5>Olá, usuário</h5>
+                <button class="btn btn-link" onclick="handleLogout()">Sign Out</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-6 mb-3">
+                <a href="#" class="btn btn-secondary btn-block py-3">serviços</a>
+            </div>
+            <div class="col-6 mb-3">
+                <a href="#" class="btn btn-secondary btn-block py-3">extrato</a>
+            </div>
+            <div class="col-6 mb-3">
+                <a href="#" class="btn btn-secondary btn-block py-3">perguntas frequentes</a>
+            </div>
+            <div class="col-6 mb-3">
+                <a href="#" class="btn btn-secondary btn-block py-3">outros</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function handleLogout() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
